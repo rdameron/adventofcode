@@ -19,7 +19,6 @@ Do
 
      "Starting Loop $a"
         
-
      $h = hash($secret + $a) 
 
      $a++
