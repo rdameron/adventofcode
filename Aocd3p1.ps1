@@ -3,10 +3,10 @@ $y=1
 
 $HousesVisited += @("1,1")
 
-﻿$in = get-content 'C:\Users\rdameron\Downloads\AoC_D3Input.txt' #| select -First 10
-$in = $in.ToCharArray()
+﻿$nav = get-content 'C:\Users\rdameron\Downloads\AoC_D3Input.txt' #| select -First 10
+$nav = $nav.ToCharArray()
 
-foreach($d in $in)
+foreach($d in $nav)
 { 
     switch ($d) {
     '>' {$x++}
